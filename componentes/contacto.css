@@ -1,0 +1,46 @@
+
+
+@media screen and (min-width: 768px){
+    .fomr-contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100vh;
+        align-content: center;
+    }
+    .fomr-contact-text{
+        width: 100%;
+    }
+    .fomr-contact-content{
+        width: auto;
+    }
+    .mail-name{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .mensaje{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+        
+    }
+    
+  
+    .boton-enviar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+}
+@media (max-width: 767px){
+    .fomr-contact {
+        height: auto;
+    }
+
+  
+}
+
+@media (min-width: 1420px){
+    .mensaje-boton{
+        width: auto;
+    }
+}

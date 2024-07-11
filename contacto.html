@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./componentes/header.css" />
+    <link rel="stylesheet" href="./componentes/contacto.css" />
+    <link rel="stylesheet" href="./componentes/footer.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./componentes/contacto.js"></script>
+    <script defer src="./pages/index.js"></script>
+    <title>Contacto</title>
+  </head>
+  <body>
+        
+   <header class="header has-background-link-dark">
+      <div class="columns is-mobile px-5">
+        <div class="column">
+          <figure class="image is-64x64">
+            <img class="logoL" src="./imagenes/logoLorem.png" />
+          </figure>
+        </div>
+
+        <div class="column pl-5 is-flex is-justify-content-flex-end">
+          <div class="menu-palabras">
+            <ul class="columns m-2 has-text-justified is-size-5 menu-list menu">
+              <li class="column">
+                <a class="item-menu has-text-black has-background-primary" href="./porfolio.html"
+                  >Porfolio</a
+                >
+              </li>
+              <li class="column">
+                <a
+                  class="item-menu has-text-black has-background-primary"
+                  href="./services.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="column">
+                <a
+                  class="item-menu has-text-black has-background-primary"
+                  href="./contacto.html"
+                  >Contactos</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="contenedor-boton-menu">
+            <button class="button-menu button is-large has-background-primary">
+              <span class="icon">
+                <i class="fas fa-bars"></i>
+              </span>
+            </button>
+             <div class="menu-palabras-ocultas">
+              <button class="boton-oculto button is-justify-content-flex-center">
+                <span class="icon">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </span>
+              </button>
+              <ul class="columns m-2 has-text-justified is-size-5 menu-list menu">
+                <li class="column">
+                  <a class="item-menu has-text-black has-background-primary" href="./porfolio.html"
+                  >Porfolio</a
+                  >
+                </li>
+                <li class="column">
+                  <a
+                  class="item-menu has-text-black has-background-primary"
+                  href="./services.html"
+                  >Servicios</a
+                  >
+                </li>
+                <li class="column">
+                  <a
+                  class="item-menu has-text-black has-background-primary"
+                  href="./contacto.html"
+                  >Contactos</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="fomr-contact has-background-link-05">
+      <div class="fomr-contact-text">
+        <h2 class="title has-text-centered is-size-1 mr-3 pt-5">Escribime</h2>
+      </div>
+      <div class="fomr-contact-content">
+        <form action="">
+          <div class="mail-name">
+            <div class="field m-5">
+              <label class="label is-size-4">Nombre</label>
+              <div class="control has-icons-left has-icons-right">
+                <input id="name"class="input" type="text" />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="field m-5">
+              <label class="label is-size-4">Email</label>
+              <div class="control has-icons-left has-icons-right">
+                <input
+                  id="email"
+                  class="input"
+                  type="email"
+                  placeholder="Email input"
+                  value="hello@"
+                />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mensaje">
+            <div class="field p-5">
+              <label class="label is-size-4" for="">Mensaje</label>
+              <div class="control">
+                <textarea id="message" class="textarea"></textarea>
+              </div>
+            </div>
+          </div>
+            <div class="boton-enviar field pl-5 pb-6 pr-5">
+              <div >
+                <button
+                  id="boton-enviar"
+                  class="button is-size-4 is-medium is-primary is-fullwidth control"
+                >
+                  Enviar
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-paper-plane ml-6"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer has-background-link-dark">
+      <div class="is-mobile px-5 is-align-self-center">
+        <div class="is-flex column is-justify-content-center">
+          <figure class="image is-64x64">
+            <img class="logoL" src="./imagenes/logoLorem.png" />
+          </figure>
+        </div>
+        <div class="contact-itmes mt-6">
+          <div class="contact-itmes is-flex column is-justify-content-center">
+            <span class="icon is-small is-left">
+              <i class="fas fa-2x fa-home icon is-small" aria-hidden="true"></i>
+            </span>
+            
+            <a class="ml-5 has-text-justified is-size-5 has-text-white" href="./index.html">Home</a>
+          </div>
+          <div class="contact-itmes is-flex column is-justify-content-center">
+            <span class="icon is-small is-left">
+              <i
+                class="fas fa-2x fa-child icon is-small"
+                aria-hidden="true"
+              ></i>
+            </span>
+            <a class="ml-3 has-text-justified is-size-5 has-text-white" href="./services.html">Servicios</a>
+          </div>
+          <div class="contact-itmes is-flex column is-justify-content-center">
+            <span class="icon is-small is-left">
+              <i
+                class="fas fa-2x fa-phone icon is-small"
+                aria-hidden="true"
+              ></i>
+            </span>
+            <a class="ml-5 has-text-justified is-size-5 has-text-white" href="./contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

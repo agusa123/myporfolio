@@ -1,0 +1,44 @@
+.header{
+    padding-top:20px ;
+    height: 114px;
+}
+.item-menu{
+    background-color: blue;
+}
+.logoL{
+    width: 84px;
+    height: 84px;
+}
+@media screen and (min-width: 768px) {
+    .contenedor-boton-menu {
+        display: none;
+    }
+
+    .menu-palabras {
+        display: inherit;
+
+    }
+}
+@media (max-width: 767px) {
+    .menu-palabras {
+        display: none;
+        text-align: end;
+    }
+    .menu-palabras-ocultas{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: black;
+        z-index: 10;
+    }
+    .boton-oculto{
+        width: 30%;
+        align-self: end;
+        margin: 10px;
+    }
+
+}

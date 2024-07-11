@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./componentes/header.css" />
+    <link rel="stylesheet" href="./pages/services.css" />
+    <link rel="stylesheet" href="./componentes/footer.css" />
+    <link rel="stylesheet" href="./componentes/card.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./pages/index.js"></script>
+    <script defer src="./pages/services.js"></script>
+
+    <title>Servicios</title>
+  </head>
+  <body>
+    <header class="header has-background-link-dark">
+      <div class="columns is-mobile px-5">
+        <div class="column">
+          <figure class="image is-64x64">
+            <img class="logoL" src="./imagenes/logoLorem.png" />
+          </figure>
+        </div>
+
+        <div class="column pl-5 is-flex is-justify-content-flex-end">
+          <div class="menu-palabras">
+            <ul class="columns m-2 has-text-justified is-size-5 menu-list menu">
+              <li class="column">
+                <a
+                  class="item-menu has-text-black has-background-primary"
+                  href="./porfolio.html"
+                  >Porfolio</a
+                >
+              </li>
+              <li class="column">
+                <a
+                  class="item-menu has-text-black has-background-primary"
+                  href="./services.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="column">
+                <a
+                  class="item-menu has-text-black has-background-primary"
+                  href="./contacto.html"
+                  >Contactos</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="contenedor-boton-menu">
+            <button class="button-menu button is-large has-background-primary">
+              <span class="icon">
+                <i class="fas fa-bars"></i>
+              </span>
+            </button>
+            <div class="menu-palabras-ocultas">
+              <button
+                class="boton-oculto button is-justify-content-flex-center"
+              >
+                <span class="icon">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </span>
+              </button>
+              <ul
+                class="columns m-2 has-text-justified is-size-5 menu-list menu"
+              >
+                <li class="column">
+                  <a
+                    class="item-menu has-text-black has-background-primary"
+                    href="./porfolio.html"
+                    >Porfolio</a
+                  >
+                </li>
+                <li class="column">
+                  <a
+                    class="item-menu has-text-black has-background-primary"
+                    href="./services.html"
+                    >Servicios</a
+                  >
+                </li>
+                <li class="column">
+                  <a
+                    class="item-menu has-text-black has-background-primary"
+                    href="./contacto.html"
+                    >Contactos</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="welcome has-background-link-dark pb-6">
+      <div class="titulos">
+        <h1 class="title has-text-centered is-size-1 mb-0">Mis</h1>
+        <div
+          class="segundotitle title has-text-primary has-text-centered is-size-1"
+        >
+          Servicios
+        </div>
+      </div>
+      <div class="conteiner has-text-centered">
+        <div class="coete-conteiner">
+          <img class="coete" src="./imagenes/Servicios.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="cards"></div>
+    </section>
+
+    <footer class="footer has-background-link-dark">
+      <div class="is-mobile px-5 is-align-self-center">
+        <div class="is-flex column is-justify-content-center">
+          <figure class="image is-64x64">
+            <img class="logoL" src="./imagenes/logoLorem.png" />
+          </figure>
+        </div>
+        <div class="contact-itmes mt-6">
+          <div class="contact-itmes is-flex column is-justify-content-center">
+            <span class="icon is-small is-left">
+              <i class="fas fa-2x fa-home icon is-small" aria-hidden="true"></i>
+            </span>
+
+            <a
+              class="ml-5 has-text-justified is-size-5 has-text-white"
+              href="./index.html"
+              >Home</a
+            >
+          </div>
+          <div class="contact-itmes is-flex column is-justify-content-center">
+            <span class="icon is-small is-left">
+              <i
+                class="fas fa-2x fa-child icon is-small"
+                aria-hidden="true"
+              ></i>
+            </span>
+            <a
+              class="ml-3 has-text-justified is-size-5 has-text-white"
+              href="./services.html"
+              >Servicios</a
+            >
+          </div>
+          <div class="contact-itmes is-flex column is-justify-content-center">
+            <span class="icon is-small is-left">
+              <i
+                class="fas fa-2x fa-phone icon is-small"
+                aria-hidden="true"
+              ></i>
+            </span>
+            <a
+              class="ml-5 has-text-justified is-size-5 has-text-white"
+              href="./contacto.html"
+              >Contacto</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <template id="card-servicio">
+      <div class="card-servicio">
+        <img
+          class="card-servicio__img has-text-centered"
+          src="https://imagenes.elpais.com/resizer/6OhVMwrmLM6XfmGngPtvee55cw0=/1200x675/cloudfront-eu-central-1.images.arcpublishing.com/prisa/GQCQKKDIONEFLLDV3WHCDF34KM.jpg"
+          alt=""
+        />
+        <h2
+          class="card-servicio-title has-text-justified is-size-5 px-5 mx-10 has-text-white"
+        >
+          El Tirulo
+        </h2>
+        <p
+          class="card-servicio__text has-text-justified is-size-5 p-5 m-10 has-text-white"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+          consequatur laboriosam! Pariatur est, temporibus quibusdam dolor optio
+          omnis perspiciatis sapiente nesciunt, in quos soluta sunt vitae a
+          reiciendis harum nisi?
+        </p>
+      </div>
+    </template>
+  </body>
+</html>

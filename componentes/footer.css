@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px){
+    .contact-itmes {
+        display: flex;
+        padding: 20px;
+    }
+    .is-mobile.px-5.is-align-self-center {
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .contact-itmes.is-flex {
+        min-width: 250px; 
+    }
+}

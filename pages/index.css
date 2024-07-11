@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+
+.welcome{
+    height: 80vh;
+}
+@media screen and (min-width: 768px) {
+ 
+    .welcome {
+        display: flex;
+        height: 100vh;
+    }
+    .titulos{
+        padding-top: 100px;
+        width: 100%;
+    }
+    .conteiner {
+        align-content: center;
+    }
+    .coete{
+        display: flex;
+        width: 250px;
+    }
+    .about-me{
+        height: 80vh;
+        align-items: center;
+        display: flex;
+    }
+    .sobre-mi{
+        max-width: 50%;
+        padding: 50px;
+        padding-right: 0px;
+    }
+    .about-me-cont{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .about-me-cont-img {
+        width: 600px;
+        
+    }
+}
+
+@media (max-width: 767px){
+
+    .welcome {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        align-content: space-evenly;
+        
+    }
+    .titulos{
+        margin:0 20px;
+        
+    }
+
+    .coete {
+        width: 130px;
+        height: auto;
+    }
+    .about-me-cont-img {
+        width: 300px;
+       height: auto;
+    }
+    .about-me {
+    
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+.conteiner{
+    width: 100%;
+}
+
+.text-in-line{
+    display: inline;
+}
+.text-in-line h2 {
+    display: inline;
+    margin: 0;
+}
