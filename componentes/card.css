@@ -14,7 +14,7 @@
     
         .cards {
             
-            background-image: url('../imagenes/doodle\ items.png');
+           
             display: grid;
             grid-template-rows: 1fr 1fr 1fr;
             justify-items: center;
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 768px){
     .cards{
-        background-image: url('../imagenes/doodle\ items.png');
+       
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
